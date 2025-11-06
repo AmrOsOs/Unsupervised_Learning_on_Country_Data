@@ -32,3 +32,18 @@ These techniques help identify natural clusters and visualize country relationsh
 | **Machine Learning** | Scikit-learn, Scipy |
 | **Development Environment** | Jupyter Notebook |
 
+---
+
+## 📦 Python Imports
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import AgglomerativeClustering
+import scipy.cluster.hierarchy as hcluster
+from sklearn.cluster import DBSCAN
+from sklearn.decomposition import PCA
